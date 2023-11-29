@@ -6,6 +6,9 @@
 	h1 {
 		font-variant: small-caps;
 	}
+	button {
+		@apply h-10 px-5 text-blue-100 transition-colors duration-150 bg-blue-600 rounded-lg hover:bg-blue-700;
+	}
 }
 
 a.active {
